@@ -1,0 +1,111 @@
+
+body{
+
+}
+a{
+  text-decoration: none;
+}
+                              /* header */
+.header{
+  background-color: #ffffff;
+  height: 60px;
+}
+.header .header_right{
+  height: 60px;
+  width: 455px;
+  float: right;
+  overflow: hidden;
+  position: relative;
+}
+
+
+
+                              /* middle */
+.middle{
+  background-color: #f2f2f2;
+  height: 328px;
+  width: 100%;
+  position: relative;
+
+
+}
+.middle .banner{
+  background-image: url(../imgs/middle/banner/bg_img.jpg);
+  height: 250px;
+  width: 100%;
+  position: relative;
+}
+.middle .inner_c{
+  height: 328px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  margin:0 26px;
+  }
+
+
+                              /*  main  */
+.main{
+  background-color: #f2f2f2;
+  height: 1000px;
+  width: 100%;
+  overflow: hidden;
+}
+.main .inner_c{
+  width: 972px;
+  margin: 0 auto;
+}
+.main .inner_c .left_function{
+
+  width: 226px;
+  float: left;
+  border: 1px solid #e5e5e5;
+}
+.main .mid_content{
+  border: 1px solid #e5e5e5;
+  width: 468px;
+  height: 100%;
+  float: left;
+}
+.main .follow_on{
+  float: right;
+  width: 220px;
+  height:100%;
+  border: 1px solid #e5e5e5;
+}
+
+
+                  /* use for blank parts */
+.w26{
+  width: 26px;
+  height: 1000px;
+  float: left;
+}
+.w22{
+  height: 100%;
+  width: 22px;
+  float: right;
+}
+.w24{
+  height: 100%;
+  width: 24px;
+  float: left;
+}
+.w360{
+  height: 100%;
+  width: 360px;
+  float: left;
+}
+.h30{
+  width: 100%;
+  height: 30px;
+  background-color: #f2f2f2;
+}
+.h16{
+  height: 16px;
+  width: 100%;
+}
+.h34{
+  height: 34px;
+  width: 100%;
+}

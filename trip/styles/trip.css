@@ -1,0 +1,306 @@
+
+                              /* header part */
+.header .logo{
+  background-color: yellowgreen;
+  height: 100%;
+  width: 185px;
+  float: left;
+}
+.header .header_right .personal_details{
+  height: 60px;
+  float: left;
+  width: 200px;
+}
+.header .header_right .personal_details ul{
+  height: 60px;
+  overflow: hidden;
+}
+.header .header_right .personal_details ul li{
+    height: 60px;
+    float: left;
+    position: relative;
+}
+.header .header_right .personal_details ul li a{
+  display: block;
+  position: absolute;
+  top: 0;
+  margin-top: 0;
+  height: 100%;
+
+}
+.header .header_right .personal_details ul li a .box{
+  width: 100%;
+  height: 40px;
+  margin:10px 0;
+  position: relative;
+  border-right: 1px solid #e5e5e5;
+}
+.header .header_right .personal_details ul li a img{
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top:0px;
+  left: 21px;
+}
+.header .header_right .personal_details ul li a span{
+  position: absolute;
+  bottom:0px;
+  left: 15px;
+}
+.header .header_right .personal_details ul li.trips{
+  width: 52px;
+
+}
+.header .header_right .personal_details ul li.trips a img{
+  left: 0;
+}
+.header .header_right .personal_details ul li.trips a{
+  width: 52px;
+}
+.header .header_right .personal_details ul li.trips a span{
+  left: 0;
+}
+.header .header_right .personal_details ul li.inbox{
+  width:74px;
+}
+.header .header_right .personal_details ul li.inbox a{
+  width:74px;
+}
+.header .header_right .personal_details ul li.profile{
+  width:74px;
+}
+.header .header_right .personal_details ul li.profile a{
+  width:74px;
+}
+.header .header_right .personal_details ul li.profile a .box{
+  border: none;
+}
+.header .header_right a.join{
+
+  position: relative;
+  background-color: #00a680;
+  height: 40px;
+  width: 70px;
+  float: left;
+  margin: 10px 0;
+}
+.header .header_right a.join span{
+  color: #ffffff;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+.header .header_right a.search_box{
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  height: 40px;
+  width: 164px;
+  float: left;
+  margin: 10px 0;
+  overflow: hidden;
+
+}
+.header .header_right a.search_box img{
+  margin: 10px 0 0 20px;
+  height: 100%;
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+.header .header_right a.search_box span{
+  margin: 10px 0;
+  display: block;
+  height: 20px;
+  width: 124px;
+  float: left;
+}
+                            /* middle part */
+.middle .banner a.where_to{
+  background-image: url(../imgs/middle/banner/whereto.png);
+  background-repeat: no-repeat;
+  background-position: 142px 0;
+  background-color: #ffffff;
+  position: absolute;
+  width: 188px;
+  height: 52px;
+  top:50%;
+  left: 50%;
+  margin-left: -26px;
+  margin-top: -26px;
+}
+.middle .banner a.where_to span{
+  font-size: 24px;
+  text-align:center;
+  font-weight: bolder;
+  display: block;
+  height: 52px;
+  line-height: 52px;
+  margin-right: 46px;
+}
+
+.middle .inner_c .options{
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  height: 102px;
+  width: 972px;
+  position: absolute;
+  bottom: 0;
+}
+.middle .inner_c .options ul{
+  overflow: hidden;
+}
+.middle .inner_c .options ul li{
+  width: 138px;
+  height: 102px;
+  float: left;
+}
+.middle .inner_c .options ul li.options_more{
+  width: 144px;
+}
+
+.middle .inner_c .options ul li a{
+  position: relative;
+  display: block;
+  height: 85px;
+  margin: 8.5px 0;
+  border-right: 1px solid #e5e5e5;
+}
+.middle .inner_c .options ul li.option_first a{
+  border-left: 1px solid #e5e5e5;
+}
+.middle .inner_c .options ul li.options_more a{
+  border-right: none;
+}
+.middle .inner_c .options ul li a img{
+  position: absolute;
+  top: 16px;
+  left: 56px;
+  width: 35px;
+  height: 27px;
+}
+.middle .inner_c .options ul li a span{
+  margin:10px 0 15px 0;
+  display: block;
+  height: 17px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  color: #4a4a4a;
+  font-weight: bolder;
+
+}
+.middle .inner_c .options ul li a:hover span{
+  color: #7d7d7d;
+}
+.middle .inner_c .options ul li.options_more a span{
+
+}
+
+
+
+                          /*main parts  */
+
+                      /* left parts */
+
+.main .inner_c .left_function .help_section{
+  height: 405px;
+  background-color: #ffffff;
+}
+.main .inner_c .left_function .share_section{
+  height: 200px;
+  background-color: #ffffff;
+
+}
+
+
+
+                /* mid parts of main */
+
+.main .mid_content .welcome{
+  background-image: url(../imgs/main/main_midcontent/bg_green.png);
+  background-repeat: no-repeat;
+  width: 468px;
+  height: 217px;
+}
+.main .mid_content .welcome .inner_w{
+  position: relative;
+  width: 468px;
+  height: 193px;
+}
+.main .mid_content .welcome .inner_w h2{
+  height: 72px;
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+.main .mid_content .welcome .inner_w a{
+  height: 38px;
+  width: 150px;
+  display: block;
+  left: 50%;
+  margin-left: -75px;
+  position: relative;
+  background-color: #ffffff;
+}
+.main .mid_content .welcome .inner_w a span{
+  text-align: center;
+  display: block;
+  height: 38px;
+  line-height: 38px;
+  width: 150px;
+  color: #00af87;
+  font-weight: bolder;
+}
+.main .mid_content .welcome .inner_w a:hover span{
+  color: #00c094;
+}
+.main .mid_content .posts{
+
+}
+.main .mid_content .posts .post_content{
+
+}
+.main .mid_content .posts .post_content .post_header{
+  height: 92px;
+
+}
+.main .mid_content .posts .post_content .post_img{
+
+}
+.main .mid_content .posts .post_content .post_details{
+
+}
+.main .mid_content .posts .post_content .post_location{
+
+}
+.main .mid_content .posts .post_content .post_num_likes{
+
+}
+.main .mid_content .posts .post_content .post_buttons{
+
+}
+.main .mid_content .posts .other_imgs{
+
+}
+.main .mid_content .posts .other_imgs .imgs_title{
+
+}
+.main .mid_content .posts .other_imgs .imgs_location{
+
+}
+                  /* right parts of main */
+
+.main .follow_on ul{
+  height: 100%;
+  width: 100%;
+}
+.main .follow_on ul li{
+  background-color: #ffffff;
+  width: 100%;
+  height: 226px;
+}
+.main .follow_on ul li.mid_followon{
+  height: 202px;
+}
