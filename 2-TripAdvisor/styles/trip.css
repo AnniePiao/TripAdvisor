@@ -387,6 +387,9 @@
   font-weight: bolder;
   font-size: 15px;
 }
+.main .mid_content .posts .inner_content .post_location .location_tag a:hover.location_name{
+  text-decoration: underline;
+}
 .main .mid_content .posts .inner_content .post_location .location_tag a.location_info{
   margin-bottom: 23px;
   color: #767676;
@@ -407,6 +410,9 @@
   font-size: 13px;
   color: #767676;
 
+}
+.main .mid_content .posts .inner_content .post_num_likes a:hover{
+  text-decoration: underline;
 }
 .main .mid_content .posts .inner_content .post_num_likes a.num_left{
   float: left;
@@ -501,14 +507,89 @@
 .main .mid_content .posts .inner_content .post_buttons ul li a:hover span{
   text-decoration: underline;
 }
-.main .mid_content .posts .other_imgs{
+  /* other imgs part */
+.main .mid_content .ratingimgs{
+  width: 468px;
+  height: 328px;
+  background-color: #ffffff;
 
 }
-.main .mid_content .posts .other_imgs .imgs_title{
+.main .mid_content .ratingimgs .other_imgs{
+ width: 428px;
+ margin: 0 auto;
+}
+.main .mid_content .ratingimgs .other_imgs .imgs_title{
+  width: 100%;
+  height: 25px;
+  padding-bottom: 20px;
+}
+.main .mid_content .ratingimgs .other_imgs .imgs_title a{
+  display: block;
+  height: 25px;
+  overflow: hidden;
+  font-weight: bolder;
+  line-height: 25px;
+}
+.main .mid_content .ratingimgs .other_imgs .imgs_title a:hover{
+  text-decoration: underline;
+}
+.main .mid_content .ratingimgs .other_imgs .imgs_title a.lunch{
+  width: 340px;
+  float: left;
+  font-size: 23px;
+  color: #000a12;
+}
+.main .mid_content .ratingimgs .other_imgs .imgs_title a.all {
+  width: 80px;
+  display: block;
+  float: right;
+  font-size: 17px;
+  color:#006699;
+}
+.main .mid_content .ratingimgs .other_imgs .imgs_location{
+  width: 100%;
+}
+.main .mid_content .ratingimgs .other_imgs .imgs_location ul{
+  overflow: hidden;
+}
+.main .mid_content .ratingimgs .other_imgs .imgs_location ul li{
+  float: left;
+  width: 131px;
+  height: 250px;
+  padding-right: 17.5px;
+  position: relative;
+}
+.main .mid_content .ratingimgs .other_imgs .imgs_location ul li.last_spot{
+  padding: 0;
+}
+.main .mid_content .ratingimgs .other_imgs .imgs_location ul li .rate1{
+  background-image: url(../imgs/main/main_midcontent/v1.jpg);
+  background-size: 131px 160px;
+  height: 160px;
+  width: 100%;
 
 }
-.main .mid_content .posts .other_imgs .imgs_location{
+.main .mid_content .ratingimgs .other_imgs .imgs_location ul li .rate2{
+  background-image: url(../imgs/main/main_midcontent/v2.jpg);
+  background-size: 131px 160px;
+  height: 160px;
+  width: 100%;
+}
+.main .mid_content .ratingimgs .other_imgs .imgs_location ul li .rate3{
+  background-image: url(../imgs/main/main_midcontent/v3.jpg);
+  background-size: 131px 160px;
+  height: 160px;
+  width: 100%;
+}
+.main .mid_content .ratingimgs .other_imgs .imgs_location ul li span{
+  position: absolute;
+  top: 200px;
+  color: #000a12;
+  font-weight: bolder;
 
+}
+.main .mid_content .ratingimgs .other_imgs .imgs_location ul li span:hover{
+  text-decoration: underline;
 }
                   /* right parts of main */
 
